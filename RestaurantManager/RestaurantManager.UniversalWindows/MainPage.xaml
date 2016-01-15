@@ -11,18 +11,8 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border CornerRadius="15" x:Name="RootGrid" Background="{TemplateBinding Background}">
-                            <ContentPresenter x:Name="ContentPresenter" 
-                                              AutomationProperties.AccessibilityView="Raw" 
-                                              BorderBrush="{TemplateBinding BorderBrush}" 
-                                              BorderThickness="{TemplateBinding BorderThickness}" 
-                                              ContentTemplate="{TemplateBinding ContentTemplate}" 
-                                              ContentTransitions="{TemplateBinding ContentTransitions}" 
-                                              Content="{TemplateBinding Content}" 
-                                              HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" 
-                                              Padding="{TemplateBinding Padding}" 
-                                              VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
-                                              FontSize="32"/>
+                        <Border CornerRadius="25" Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{TemplateBinding Foreground}" Padding="10" FontSize="32" />
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>

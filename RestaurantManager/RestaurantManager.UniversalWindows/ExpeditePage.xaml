@@ -28,29 +28,38 @@
         <GridView Grid.Row="1" ItemsSource="{Binding OrderItems}">
             <GridView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Width="400" Margin="10" Background="Gray">
+                    <Grid Width="275" Height="325" Margin="20" Background="Gray">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="300" />
-                            <RowDefinition Height="200" />
-                            <RowDefinition Height="60" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="100" />
+                            <RowDefinition Height="50" />
                         </Grid.RowDefinitions>
-                        <ListBox ItemsSource="{Binding Items}" 
-                                 Grid.Row="0">
-                                <ListBox.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextBlock Text="{Binding Title}" 
-                                                   FontSize="24"/>
-                                    </DataTemplate>
-                                </ListBox.ItemTemplate>
-                        </ListBox>
+                        <Border Background="DarkGray">
+                            <ListBox ItemsSource="{Binding Items}">
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <Grid>
+                                                <TextBlock Text="{Binding Title}" 
+                                                           Style="{StaticResource SubtitleTextBlockStyle}"
+                                                           TextWrapping="NoWrap" />
+                                            </Grid>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+                            </ListBox>
+                        </Border>    
                         <StackPanel Orientation="Vertical"
                                     Grid.Row="1"
                                     Margin="10">
                                 <TextBlock Text="{Binding Table.Description}"
-                                   FontSize="32"/>
-                                <TextBlock Text="{Binding SpecialRequests}"
-                                   Margin="10"
-                                   FontSize="20"/>
+                                           Style="{StaticResource TitleTextBlockStyle}"
+                                           TextWrapping="WrapWholeWords"/>
+                                <TextBlock Margin="10"
+                                           Style="{StaticResource CaptionTextBlockStyle}"
+                                           TextWrapping="NoWrap">
+                                    <Run Text="Special Notes:"/>
+                                    <LineBreak />
+                                    <Run Text="{Binding SpecialRequests}" />
+                            </TextBlock>
                         </StackPanel>
                         <Button Content="Delete" Grid.Row="3" 
                                 HorizontalAlignment="Center"
