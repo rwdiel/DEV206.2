@@ -4,12 +4,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:RestaurantManager.UniversalWindows"
     xmlns:models="using:RestaurantManager.Models"
+    xmlns:extensions="using:RestaurantManager.Extensions"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.DataContext>
         <models:ExpediteDataManager />
     </Page.DataContext>
+    <Page.Resources>
+        <extensions:BoolToColorConverter x:Key="BooleanToColorConverter" TrueColor="Red" FalseColor="Transparent" />
+    </Page.Resources>
+        
+    
     <Page.TopAppBar>
         <AppBar>
             <AppBarButton Label="Home" Click="MainPage_Click">
@@ -61,10 +67,15 @@
                                     <Run Text="{Binding SpecialRequests}" />
                             </TextBlock>
                         </StackPanel>
-                        <Button Content="Delete" Grid.Row="3" 
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Bottom">
-                        </Button>
+                        <Border Grid.Row="3">
+                            <Border.Background>
+                                <SolidColorBrush Color="{Binding Expedite,Mode=OneWay, Converter={StaticResource BooleanToColorConverter}}" />
+                            </Border.Background>
+                            <Button Content="Delete" Grid.Row="3" 
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Bottom">
+                            </Button>
+                        </Border>
                     </Grid>
                 </DataTemplate>
             </GridView.ItemTemplate>

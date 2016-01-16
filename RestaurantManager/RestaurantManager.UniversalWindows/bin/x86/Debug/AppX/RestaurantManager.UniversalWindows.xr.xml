@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="OrderItems" />
+    <RootPropertyPathName Name="Expedite" />
     <RootPropertyPathName Name="SpecialRequests" />
     <RootPropertyPathName Name="Table" />
     <RootPropertyPathName Name="Description" />
@@ -42,11 +46,15 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="DataContext" />
+      <RootProperty Name="Resources" />
       <RootProperty Name="TopAppBar" />
       <RootProperty Name="Content" />
-      <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="RestaurantManager.Models.ExpediteDataManager" />
+    <RootType FullName="RestaurantManager.Extensions.BoolToColorConverter">
+      <RootProperty Name="TrueColor" />
+      <RootProperty Name="FalseColor" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
       <RootProperty Name="Content" />
     </RootType>
@@ -83,7 +91,10 @@
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
@@ -97,6 +108,9 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+    </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="Text" />
@@ -107,6 +121,10 @@
       <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="RestaurantManager.UniversalWindows.ExpeditePage" />
+    <RootType FullName="Microsoft.Xaml.Interactivity.Interaction">
+      <RootMethod Name="GetBehaviors" />
+      <RootMethod Name="SetBehaviors" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
       <RootProperty Name="TargetType" />
       <RootProperty Name="Template" />
@@ -118,6 +136,10 @@
       <RootProperty Name="Foreground" />
       <RootProperty Name="Padding" />
       <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="RestaurantManager.Extensions.RightClickMessageDialogBehavior">
+      <RootProperty Name="Message" />
+      <RootProperty Name="Title" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
