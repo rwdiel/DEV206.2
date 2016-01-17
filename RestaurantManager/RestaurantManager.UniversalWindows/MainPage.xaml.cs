@@ -1,7 +1,7 @@
 ﻿using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace RestaurantManager.UniversalWindows
+namespace ViewModel.UniversalWindows
 {
     public sealed partial class MainPage : Page
     {

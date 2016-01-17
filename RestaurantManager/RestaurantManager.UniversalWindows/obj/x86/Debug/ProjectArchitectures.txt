@@ -1,3 +1,5 @@
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.Extensions\RestaurantManager.Extensions.csproj;neutral
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.Models\RestaurantManager.Models.csproj;neutral
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj;x86
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurtManger.ViewModel\RestaurantManager.ViewModels.csproj;neutral

@@ -1,9 +1,9 @@
 ﻿<Application
-    x:Class="RestaurantManager.UniversalWindows.App"
+    x:Class="ViewModel.UniversalWindows.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:RestaurantManager.UniversalWindows"
-    xmlns:models="using:RestaurantManager.Models"
+    xmlns:local="using:ViewModel.UniversalWindows"
+    xmlns:models="using:ViewModel.Models"
     RequestedTheme="Dark">
     <Application.Resources>
         <Style TargetType="Button">

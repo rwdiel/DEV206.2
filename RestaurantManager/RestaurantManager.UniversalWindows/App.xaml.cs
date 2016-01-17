@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace RestaurantManager.UniversalWindows
+namespace ViewModel.UniversalWindows
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.

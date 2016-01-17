@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.Models", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.Extensions", "RestaurantManager.Extensions\RestaurantManager.Extensions.csproj", "{D2AEDB64-4126-44EA-8A31-B53EBA0F932D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.ViewModels", "RestaurtManger.ViewModel\RestaurantManager.ViewModels.csproj", "{E59A6582-A4BC-48BF-B016-6FFF391421B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,22 @@ Global
 		{D2AEDB64-4126-44EA-8A31-B53EBA0F932D}.Release|x64.Build.0 = Release|x64
 		{D2AEDB64-4126-44EA-8A31-B53EBA0F932D}.Release|x86.ActiveCfg = Release|x86
 		{D2AEDB64-4126-44EA-8A31-B53EBA0F932D}.Release|x86.Build.0 = Release|x86
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Debug|ARM.Build.0 = Debug|ARM
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Debug|x64.ActiveCfg = Debug|x64
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Debug|x64.Build.0 = Debug|x64
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Debug|x86.ActiveCfg = Debug|x86
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Debug|x86.Build.0 = Debug|x86
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Release|ARM.ActiveCfg = Release|ARM
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Release|ARM.Build.0 = Release|ARM
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Release|x64.ActiveCfg = Release|x64
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Release|x64.Build.0 = Release|x64
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Release|x86.ActiveCfg = Release|x86
+		{E59A6582-A4BC-48BF-B016-6FFF391421B2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

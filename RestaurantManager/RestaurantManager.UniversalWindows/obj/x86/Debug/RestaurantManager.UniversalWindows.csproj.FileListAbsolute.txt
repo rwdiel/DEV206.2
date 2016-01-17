@@ -450,3 +450,12 @@ C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantM
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\Core\RestaurantManager.Extensions.pdb
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\Core\RestaurantManager.Extensions.dll
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\Core\RestaurantManager.Extensions\Properties\RestaurantManager.Extensions.rd.xml
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurtManger.ViewModel.dll
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurtManger.ViewModel.pdb
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurtManger.ViewModel\Properties\RestaurtManger.ViewModel.rd.xml
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurtManger.ViewModel.dll
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurtManger.ViewModel.pdb
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\RestaurtManger.ViewModel.pri
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\Core\RestaurtManger.ViewModel.pdb
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\Core\RestaurtManger.ViewModel.dll
+C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\obj\x86\Debug\Core\RestaurtManger.ViewModel\Properties\RestaurtManger.ViewModel.rd.xml

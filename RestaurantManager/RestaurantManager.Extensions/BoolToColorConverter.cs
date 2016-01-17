@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Windows.UI;
 using Windows.UI.Xaml.Data;
 
-namespace RestaurantManager.Extensions
+namespace ViewModel.Extensions
 {
     public class BoolToColorConverter : IValueConverter
     {

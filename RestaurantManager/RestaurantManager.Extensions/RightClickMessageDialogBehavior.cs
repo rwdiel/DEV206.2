@@ -10,7 +10,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 
 
-namespace RestaurantManager.Extensions
+namespace ViewModel.Extensions
 {
     public class RightClickMessageDialogBehavior : DependencyObject, IBehavior
     {

@@ -75,6 +75,12 @@
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.xr.xml">
       <PackagePath>RestaurantManager.UniversalWindows.xr.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurtManger.ViewModel.dll">
+      <PackagePath>RestaurtManger.ViewModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurtManger.ViewModel\Properties\RestaurtManger.ViewModel.rd.xml">
+      <PackagePath>RestaurtManger.ViewModel\Properties\RestaurtManger.ViewModel.rd.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
     </AppxPackagedFile>

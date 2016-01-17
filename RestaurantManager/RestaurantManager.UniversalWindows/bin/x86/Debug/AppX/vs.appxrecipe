@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-01-16T17:05:39.301</Modified>
+      <Modified>2016-01-17T21:05:13.018</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -48,7 +48,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\entrypoint\RestaurantManager.UniversalWindows.exe">
       <PackagePath>entrypoint\RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2016-01-16T17:05:38.183</Modified>
+      <Modified>2016-01-17T21:05:12.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -76,11 +76,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-01-16T17:05:38.885</Modified>
+      <Modified>2016-01-17T20:25:48.765</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Extensions.dll">
       <PackagePath>RestaurantManager.Extensions.dll</PackagePath>
-      <Modified>2016-01-16T16:51:35.293</Modified>
+      <Modified>2016-01-17T11:00:02.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Extensions\Properties\RestaurantManager.Extensions.rd.xml">
       <PackagePath>RestaurantManager.Extensions\Properties\RestaurantManager.Extensions.rd.xml</PackagePath>
@@ -88,7 +88,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Models.dll">
       <PackagePath>RestaurantManager.Models.dll</PackagePath>
-      <Modified>2016-01-16T14:57:00.921</Modified>
+      <Modified>2016-01-17T11:12:44.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.Models\Properties\RestaurantManager.Models.rd.xml">
       <PackagePath>RestaurantManager.Models\Properties\RestaurantManager.Models.rd.xml</PackagePath>
@@ -96,11 +96,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.exe">
       <PackagePath>RestaurantManager.UniversalWindows.exe</PackagePath>
-      <Modified>2016-01-16T17:05:39.301</Modified>
+      <Modified>2016-01-17T21:05:13.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurantManager.UniversalWindows.xr.xml">
       <PackagePath>RestaurantManager.UniversalWindows.xr.xml</PackagePath>
-      <Modified>2016-01-16T17:05:37.979</Modified>
+      <Modified>2016-01-17T20:25:47.884</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurtManger.ViewModel.dll">
+      <PackagePath>RestaurtManger.ViewModel.dll</PackagePath>
+      <Modified>2016-01-17T21:05:10.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\RestaurtManger.ViewModel\Properties\RestaurtManger.ViewModel.rd.xml">
+      <PackagePath>RestaurtManger.ViewModel\Properties\RestaurtManger.ViewModel.rd.xml</PackagePath>
+      <Modified>2016-01-17T19:56:21.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.UniversalWindows\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
