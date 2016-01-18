@@ -15,4 +15,3 @@ C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantM
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.Models\obj\Debug\qualifiers.txt
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.Models\obj\Debug\qualifiers.txt.intermediate
 C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.Models\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\RobDi\OneDrive\Documenten\GitHub\DEV206.2\RestaurantManager\RestaurantManager.Models\obj\Debug\RestaurantManager.Models.csprojResolveAssemblyReference.cache

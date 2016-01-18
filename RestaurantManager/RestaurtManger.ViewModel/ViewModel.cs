@@ -13,10 +13,22 @@ namespace RestaurantManager.ViewModels
             LoadData();
         }
 
+
+        private bool _isLoading;
+
+        public bool IsLoading
+        {
+            get { return _isLoading; }
+            set { _isLoading = value; NotifyPropertyChanged(); }
+        }
+        
+
         private async void LoadData()
         {
+            IsLoading = true;
             this.Repository = await RestaurantContextFactory.GetRestaurantContextAsync();
             OnDataLoaded();
+            IsLoading = false;
         }
 
         protected abstract void OnDataLoaded();
